@@ -7,5 +7,6 @@
         public DateTime Date { get; set; }
         public int Price { get; set; }
         public Destination Destination { get; set; }
+        public int DestinationId { get; set; }
     }
 }
